@@ -3,15 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeMap;
-/**
- * @author Adam
- */
 
 public class JavaApplication1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         //Read from stdin
         Scanner in = new Scanner(System.in);
