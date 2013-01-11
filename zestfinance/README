@@ -1,0 +1,9 @@
+At one of my interviews I was asked write an algorithm to find the first common node in two linked lists.
+The best answer I came up with is time complexity of O(m+n) and space complexity of O(1).
+But the interviewer said it can be done in O(1) for both time and space. How is it possible?
+
+Anyway, here is my implementation:
+1. Find the length of the two linked list.
+2. Find the difference in number of nodes and then move whichever pointer that points to the longer
+   list ahead using that difference.
+3. Loop through both lists to find the intersect.
